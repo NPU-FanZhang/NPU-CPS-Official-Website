@@ -49,7 +49,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-irregular-whitespace":"off"
+    }
   },
   "browserslist": [
     "> 1%",
