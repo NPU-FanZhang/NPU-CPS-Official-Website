@@ -2,11 +2,8 @@
     <div id="TopTitleLogoBar">
         <div class="background" :style="backgroundDiv">
             <div class="Logo"   :style="LogoDiv">
-
         </div>
         </div>
-        
-
     </div>
 </template>
 

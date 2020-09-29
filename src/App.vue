@@ -3,6 +3,8 @@
     <v-topmsgbar></v-topmsgbar>
     <v-toptitlelogobar></v-toptitlelogobar>
     <v-mainswitchbar></v-mainswitchbar>
+    <homepage></homepage>
+    
     <div id="nav">
     </div>
 

@@ -6,7 +6,13 @@ import store from "./store";
 import 'element-ui/lib/theme-chalk/index.css';
 import loading from './components/index';
 import ElementUI from 'element-ui';
-import moment from 'moment'
+import moment from 'moment';
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+ 
+// import style
+import 'swiper/swiper-bundle.css'
+ 
+Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
 Vue.prototype.$moment = moment
 
@@ -14,6 +20,7 @@ Vue.config.productionTip = false;
 
 Vue.use(loading);
 Vue.use(ElementUI);
+
 
 new Vue({
   router,
